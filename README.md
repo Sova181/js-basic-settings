@@ -1,1 +1,1 @@
-# js-basic-settings
+# js-basic-strings
