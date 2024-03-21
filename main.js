@@ -1,5 +1,4 @@
-// Стандарт кодирования airbnb, рекомендует
-// использовать, по возможности, одинарные
+//Кавычки
 console.log("Dracarys!");  
 
 // Экранируется только ", так как в этой ситуации
@@ -21,4 +20,23 @@ console.log('Gregor Clegane\nDunsen\nPolliver\nChiswyck');
 /* Gregor Clegane
 Dunsen
 Polliver
-Chiswyck */
+Chiswyck */ 
+
+console.log('\n');
+console.log('Dunsen'); 
+
+console.log('Polliver');
+console.log('Gregor Clegane');
+console.log();
+console.log('Chiswyck');
+console.log('\n');
+console.log('Dunsen'); 
+
+console.log('Joffrey loves using \\n'); 
+
+//Конкатенация
+console.log('Dragon' + 'stone');
+
+console.log("King's" + 'Landing'); // => King'sLanding
+console.log("King's " + 'Landing'); //  => King's Landing
+console.log("King's  " + '  Landing'); // => King's    Landing
