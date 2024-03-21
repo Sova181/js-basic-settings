@@ -1,4 +1,5 @@
 //Кавычки
+console.log("   Кавычки\n");  
 console.log("Dracarys!");  
 
 // Экранируется только ", так как в этой ситуации
@@ -14,6 +15,7 @@ console.log("Death is \so terribly final, while life is full of possibilities");
 console.log("\\ \\ \\\\ \\\ \'\"");
 
 //Экранирующие последовательности
+console.log("    Экранирующие последовательности\n"); 
 console.log('- Are you hungry?\n- Aaaarrrgh!'); 
 
 console.log('Gregor Clegane\nDunsen\nPolliver\nChiswyck'); 
@@ -35,6 +37,7 @@ console.log('Dunsen');
 console.log('Joffrey loves using \\n'); 
 
 //Конкатенация
+console.log('    Конкан' + 'тенация!\n');
 console.log('Dragon' + 'stone');
 
 console.log("King's" + 'Landing'); // => King'sLanding
