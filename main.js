@@ -42,4 +42,25 @@ console.log('Dragon' + 'stone');
 
 console.log("King's" + 'Landing'); // => King'sLanding
 console.log("King's " + 'Landing'); //  => King's Landing
-console.log("King's  " + '  Landing'); // => King's    Landing
+console.log("King's  " + '  Landing\n'); // => King's    Landing
+
+//Переменные
+console.log("   Переменные\n");  
+let greeting = 'Father!';
+console.log(greeting); // => Father!
+console.log(greeting); // => Father! 
+
+let greeting1 = 'Father!';
+console.log(greeting1); // => Father!
+console.log(greeting1); // => Father!
+
+let greeting2 = 'Mother!';
+console.log(greeting2); // => Mother!
+console.log(greeting2); // => Mother! 
+
+//Изменение переменной
+let greeting3 = 'Father!';
+console.log(greeting); // => Father! 
+
+greeting3 = 'Mother!';
+console.log(greeting3); // => Mother!
